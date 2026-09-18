@@ -1,0 +1,14 @@
+{
+  "id": "pack-id",
+  "name": "表情包名称",
+  "items": [
+    {
+      "id": "item-id",
+      "label": "显示名称",
+      "kind": "image",
+      "value": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/pack-id/item-id.webp",
+      "tags": []
+    }
+  ]
+}
+

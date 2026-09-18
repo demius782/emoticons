@@ -1,0 +1,15 @@
+{
+  "name": "@demius782/emoticons",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Emoticon assets and manifests for Artalk and other applications",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
