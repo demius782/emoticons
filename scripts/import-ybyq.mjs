@@ -8,7 +8,7 @@ const sourceManifest = 'https://static.blog.ybyq.wang/usr/themes/handsome/usr/Ow
 const sourceAssetPrefix =
   'https://static.blog.ybyq.wang/usr/themes/handsome/assets/img/emotion/'
 const targetAssetDir = path.join(root, 'assets', 'ybyq')
-const targetManifest = path.join(root, 'manifests', 'artalk', 'packs', 'ybyq.json')
+const targetManifest = path.join(root, 'manifests', 'artalk', 'packs', 'demius.json')
 const cdnAssetPrefix = 'https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/'
 const selectedGroups = [
   { name: '颜文字' },

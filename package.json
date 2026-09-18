@@ -5,7 +5,6 @@
   "description": "Emoticon assets and manifests for Artalk and other applications",
   "type": "module",
   "scripts": {
-    "import:xrbk": "node scripts/import-xrbk.mjs",
     "import:ybyq": "node scripts/import-ybyq.mjs",
     "test": "node scripts/validate.mjs",
     "validate": "node scripts/validate.mjs"

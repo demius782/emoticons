@@ -2,33 +2,15 @@
 
 所有新增图片都应在此记录来源，避免日后无法确认是否可以继续分发。
 
-## 外部引用
-
-| 清单或素材 | 来源 | 使用方式 | 说明 |
-|---|---|---|---|
-| Artalk 默认表情 | https://github.com/ArtalkJS/Emoticons | 仅在 Artalk 入口中远程引用 | 本仓库未复制其图片文件 |
-
 ## 本仓库素材
 
-### xrbk
-
-- 页面来源：https://blog.xrbk.cn/message/
-- 数据清单：https://blog.xrbk.cn/plugins/owo/twikoo.json
-- 采集日期：2026-09-18
-- 本地目录：`assets/xrbk/`
-- Artalk 清单：`manifests/artalk/packs/xrbk.json`
-- 内容：流沙 36 个、可爱猫 54 个、线条狗 43 个、小电视 21 个，共 154 个。
-- 处理：下载源图片，保留原始字节；将 OwO/Twikoo 清单转换为 Artalk 原生格式。
-- 上游线索：小电视素材也出现在 https://github.com/imaegoo/emotion ，该仓库未声明许可证。
-- 授权状态：**未确认**。源页面公开提供这些文件，但尚未找到明确的再分发许可证；公开使用前应向原作者或素材权利人确认。
-
-### ybyq
+### demius（来源：ybyq）
 
 - 页面来源：https://blog.ybyq.wang/archives/1846.html
 - 数据清单：https://static.blog.ybyq.wang/usr/themes/handsome/usr/OwO.json
 - 采集日期：2026-09-18
 - 本地目录：`assets/ybyq/`
-- Artalk 清单：`manifests/artalk/packs/ybyq.json`
+- Artalk 清单：`manifests/artalk/packs/demius.json`
 - 内容：颜文字 28 个、哔哩哔哩 44 个、阿鲁 38 个，共 110 个；其中图片 82 张。
 - 处理：颜文字转换为 Artalk 文本表情；下载图片并保留原始字节；将选定的 OwO 分组转换为 Artalk 原生格式。
 - 上游线索：颜文字分组与 https://github.com/DIYgod/OwO/blob/master/demo/OwO.json 中的颜文字数据完全一致，并在源数据中署名 `Author: DIYgod`；该仓库未声明许可证。

@@ -10,7 +10,7 @@ assets/                         表情图片原文件
 manifests/
   artalk/
     index.json                  Artalk 的稳定入口
-    packs/blog.json             当前博客评论系统的自定义表情
+    packs/demius.json           当前使用的 Artalk 表情包
   generic/
     index.json                  供未来程序转换或读取的通用索引
 templates/                      新建清单时复制的模板
@@ -34,17 +34,13 @@ frontend:
   emoticons: https://cdn.jsdelivr.net/gh/demius782/emoticons@main/manifests/artalk/index.json
 ```
 
-`manifests/artalk/index.json` 是唯一需要填入 Artalk 的地址。它可以嵌套加载多份 JSON，因此每套表情可以独立维护。
-
-当前入口先保留 Artalk 官方默认表情，并预留了本仓库的博客专用表情清单。向 `manifests/artalk/packs/blog.json` 添加内容后，不必再次修改 Artalk 配置。
+`manifests/artalk/index.json` 是唯一需要填入 Artalk 的地址，当前仅加载 `manifests/artalk/packs/demius.json`。
 
 当前收录：
 
 | 清单 | 用途 | 分组/数量 |
 |---|---|---|
-| `packs/blog.json` | 本博客自行维护的表情 | 暂无 |
-| `packs/xrbk.json` | 从新锐博客留言页整理并转换为 Artalk 格式 | 4 组 / 154 个 |
-| `packs/ybyq.json` | 从 Xuan's blog 评论区选择并转换为 Artalk 格式 | 3 组 / 110 个 |
+| `packs/demius.json` | 从 Xuan's blog 评论区选择并转换为 Artalk 格式 | 3 组 / 110 个 |
 
 ## 添加一套 Artalk 表情
 
@@ -72,7 +68,6 @@ frontend:
 ## 更新采集来源包
 
 ```shell
-npm run import:xrbk
 npm run import:ybyq
 npm test
 ```
