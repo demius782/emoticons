@@ -44,6 +44,7 @@ frontend:
 |---|---|---|
 | `packs/blog.json` | 本博客自行维护的表情 | 暂无 |
 | `packs/xrbk.json` | 从新锐博客留言页整理并转换为 Artalk 格式 | 4 组 / 154 个 |
+| `packs/ybyq.json` | 从 Xuan's blog 评论区选择并转换为 Artalk 格式 | 3 组 / 110 个 |
 
 ## 添加一套 Artalk 表情
 
@@ -68,10 +69,11 @@ frontend:
 - 新增外部素材时同步更新 `ATTRIBUTIONS.md`，记录来源、作者和许可证。
 - 不同程序的清单放在 `manifests/<target>/`，不要让某个程序专用字段进入其他清单。
 
-## 更新新锐博客来源包
+## 更新采集来源包
 
 ```shell
 npm run import:xrbk
+npm run import:ybyq
 npm test
 ```
 

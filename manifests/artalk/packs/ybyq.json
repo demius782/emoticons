@@ -1,0 +1,460 @@
+[
+  {
+    "name": "颜文字",
+    "type": "emoticon",
+    "items": [
+      {
+        "key": "Author: DIYgod",
+        "val": "OωO"
+      },
+      {
+        "key": "Hi",
+        "val": "|´・ω・)ノ"
+      },
+      {
+        "key": "开心",
+        "val": "ヾ(≧∇≦*)ゝ"
+      },
+      {
+        "key": "星星眼",
+        "val": "(☆ω☆)"
+      },
+      {
+        "key": "掀桌",
+        "val": "（╯‵□′）╯︵┴─┴"
+      },
+      {
+        "key": "流口水",
+        "val": "￣﹃￣"
+      },
+      {
+        "key": "捂脸",
+        "val": "(/ω＼)"
+      },
+      {
+        "key": "给跪",
+        "val": "∠( ᐛ 」∠)＿"
+      },
+      {
+        "key": "Hi",
+        "val": "(๑•̀ㅁ•́ฅ)"
+      },
+      {
+        "key": "斜眼",
+        "val": "→_→"
+      },
+      {
+        "key": "加油",
+        "val": "୧(๑•̀⌄•́๑)૭"
+      },
+      {
+        "key": "有木有WiFi",
+        "val": "٩(ˊᗜˋ*)و"
+      },
+      {
+        "key": "前方高能预警",
+        "val": "(ノ°ο°)ノ"
+      },
+      {
+        "key": "我从未见过如此厚颜无耻之人",
+        "val": "(´இ皿இ｀)"
+      },
+      {
+        "key": "吓死宝宝惹",
+        "val": "⌇●﹏●⌇"
+      },
+      {
+        "key": "已阅留爪",
+        "val": "(ฅ´ω`ฅ)"
+      },
+      {
+        "key": "去吧大师球",
+        "val": "(╯°A°)╯︵○○○"
+      },
+      {
+        "key": "太萌惹",
+        "val": "φ(￣∇￣o)"
+      },
+      {
+        "key": "咦咦咦",
+        "val": "ヾ(´･ ･｀｡)ノ\""
+      },
+      {
+        "key": "气呼呼",
+        "val": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃"
+      },
+      {
+        "key": "我受到了惊吓",
+        "val": "(ó﹏ò｡)"
+      },
+      {
+        "key": "什么鬼",
+        "val": "Σ(っ °Д °;)っ"
+      },
+      {
+        "key": "摸摸头",
+        "val": "( ,,´･ω･)ﾉ\"(´っω･｀｡)"
+      },
+      {
+        "key": "无奈",
+        "val": "╮(╯▽╰)╭ "
+      },
+      {
+        "key": "脸红",
+        "val": "o(*////▽////*)q "
+      },
+      {
+        "key": "",
+        "val": "＞﹏＜"
+      },
+      {
+        "key": "",
+        "val": "( ๑´•ω•) \"(ㆆᴗㆆ)"
+      },
+      {
+        "key": "",
+        "val": "(｡•ˇ‸ˇ•｡)"
+      }
+    ]
+  },
+  {
+    "name": "哔哩哔哩",
+    "type": "image",
+    "items": [
+      {
+        "key": "哔哩哔哩-白眼",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/baiyan.gif"
+      },
+      {
+        "key": "哔哩哔哩-鄙视",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/bishi.gif"
+      },
+      {
+        "key": "哔哩哔哩-闭嘴",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/bizui.gif"
+      },
+      {
+        "key": "哔哩哔哩-馋",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/chan.gif"
+      },
+      {
+        "key": "哔哩哔哩-大哭",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/daku.gif"
+      },
+      {
+        "key": "哔哩哔哩-大佬",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/dalao.gif"
+      },
+      {
+        "key": "哔哩哔哩-打脸",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/dalian.gif"
+      },
+      {
+        "key": "哔哩哔哩-点赞",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/dianzan.gif"
+      },
+      {
+        "key": "哔哩哔哩-doge",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/doge.gif"
+      },
+      {
+        "key": "哔哩哔哩-发财",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/facai.gif"
+      },
+      {
+        "key": "哔哩哔哩-发呆",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/fadai.gif"
+      },
+      {
+        "key": "哔哩哔哩-发怒",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/fanu.gif"
+      },
+      {
+        "key": "哔哩哔哩-尴尬",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/ganga.gif"
+      },
+      {
+        "key": "哔哩哔哩-鼓掌",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/guzhang.gif"
+      },
+      {
+        "key": "哔哩哔哩-害羞",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/haixiu.gif"
+      },
+      {
+        "key": "哔哩哔哩-黑人问号",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/heirenwenhao.gif"
+      },
+      {
+        "key": "哔哩哔哩-坏笑",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/huaixiao.gif"
+      },
+      {
+        "key": "哔哩哔哩-惊吓",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/jingxia.gif"
+      },
+      {
+        "key": "哔哩哔哩-可爱",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/keai.gif"
+      },
+      {
+        "key": "哔哩哔哩-抠鼻",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/koubi.gif"
+      },
+      {
+        "key": "哔哩哔哩-困",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/kun.gif"
+      },
+      {
+        "key": "哔哩哔哩-流鼻血",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/liubixie.gif"
+      },
+      {
+        "key": "哔哩哔哩-流汗",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/liuhan.gif"
+      },
+      {
+        "key": "哔哩哔哩-腼腆",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/miantian.gif"
+      },
+      {
+        "key": "哔哩哔哩-难过",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/nanguo.gif"
+      },
+      {
+        "key": "哔哩哔哩-呕吐",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/outu.gif"
+      },
+      {
+        "key": "哔哩哔哩-亲亲",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/qinqin.gif"
+      },
+      {
+        "key": "哔哩哔哩-色",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/se.gif"
+      },
+      {
+        "key": "哔哩哔哩-生病",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/shengbing.gif"
+      },
+      {
+        "key": "哔哩哔哩-生气",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/shengqi.gif"
+      },
+      {
+        "key": "哔哩哔哩-睡着",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/shuizhao.gif"
+      },
+      {
+        "key": "哔哩哔哩-思考",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/sikao.gif"
+      },
+      {
+        "key": "哔哩哔哩-调皮",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/tiaopi.gif"
+      },
+      {
+        "key": "哔哩哔哩-偷笑",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/touxiao.gif"
+      },
+      {
+        "key": "哔哩哔哩-吐血",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/tuxie.gif"
+      },
+      {
+        "key": "哔哩哔哩-委屈",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/weiqu.gif"
+      },
+      {
+        "key": "哔哩哔哩-微笑",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/weixiao.gif"
+      },
+      {
+        "key": "哔哩哔哩-无奈",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/wunai.gif"
+      },
+      {
+        "key": "哔哩哔哩-笑哭",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/xiaoku.gif"
+      },
+      {
+        "key": "哔哩哔哩-斜眼笑",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/xieyanxiao.gif"
+      },
+      {
+        "key": "哔哩哔哩-疑问",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/yiwen.gif"
+      },
+      {
+        "key": "哔哩哔哩-晕",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/yun.gif"
+      },
+      {
+        "key": "哔哩哔哩-再见",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/zaijian.gif"
+      },
+      {
+        "key": "哔哩哔哩-抓狂",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/bilibili/zhuakuang.gif"
+      }
+    ]
+  },
+  {
+    "name": "阿鲁",
+    "type": "image",
+    "items": [
+      {
+        "key": "阿鲁-鄙视",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/despise.png"
+      },
+      {
+        "key": "阿鲁-插刀",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/knife.png"
+      },
+      {
+        "key": "阿鲁-亲嘴",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/pouting.png"
+      },
+      {
+        "key": "阿鲁-闭嘴",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/shutup.png"
+      },
+      {
+        "key": "阿鲁-不开心",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/unhappy.png"
+      },
+      {
+        "key": "阿鲁-发现真相",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/discovertruth.png"
+      },
+      {
+        "key": "阿鲁-便便",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/shit.png"
+      },
+      {
+        "key": "阿鲁-烦恼",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/distressed.png"
+      },
+      {
+        "key": "阿鲁-捂脸",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/shy.png"
+      },
+      {
+        "key": "阿鲁-无语",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/speechless.png"
+      },
+      {
+        "key": "阿鲁-迷惑",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/confuse.png"
+      },
+      {
+        "key": "阿鲁-皱眉",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/frown.png"
+      },
+      {
+        "key": "阿鲁-得意",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/proud.png"
+      },
+      {
+        "key": "阿鲁-欢呼",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/cheer.png"
+      },
+      {
+        "key": "阿鲁-沉思",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/meditation.png"
+      },
+      {
+        "key": "阿鲁-潜水",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/diving.png"
+      },
+      {
+        "key": "阿鲁-掩面哭泣",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/cryingface.png"
+      },
+      {
+        "key": "阿鲁-潜伏",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/lurking.png"
+      },
+      {
+        "key": "阿鲁-大拇指",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/thumb.png"
+      },
+      {
+        "key": "阿鲁-微笑",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/smile.png"
+      },
+      {
+        "key": "阿鲁-拍掌",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/clap.png"
+      },
+      {
+        "key": "阿鲁-眼馋",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/envious.png"
+      },
+      {
+        "key": "阿鲁-投降",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/surrender.png"
+      },
+      {
+        "key": "阿鲁-大眼睛",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/bigeye.png"
+      },
+      {
+        "key": "阿鲁-抠鼻",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/nose.png"
+      },
+      {
+        "key": "阿鲁-流汗",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/sweat.png"
+      },
+      {
+        "key": "阿鲁-小花花",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/flower.png"
+      },
+      {
+        "key": "阿鲁-流泪",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/crying.png"
+      },
+      {
+        "key": "阿鲁-吐",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/spit.png"
+      },
+      {
+        "key": "阿鲁-吃惊",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/surprised.png"
+      },
+      {
+        "key": "阿鲁-一滩血",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/blood.png"
+      },
+      {
+        "key": "阿鲁-吐血",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/blood2.png"
+      },
+      {
+        "key": "阿鲁-脸红",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/shy2.png"
+      },
+      {
+        "key": "阿鲁-生气",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/angry.png"
+      },
+      {
+        "key": "阿鲁-无所谓",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/nomatter.png"
+      },
+      {
+        "key": "阿鲁-死翘翘",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/dead.png"
+      },
+      {
+        "key": "阿鲁-阴险",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/insidious.png"
+      },
+      {
+        "key": "阿鲁-吐舌",
+        "val": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/assets/ybyq/aru/tongue.png"
+      }
+    ]
+  }
+]
