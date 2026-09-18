@@ -10,7 +10,17 @@
 
 ## 本仓库素材
 
-目前尚未加入图片素材。
+### xrbk
+
+- 页面来源：https://blog.xrbk.cn/message/
+- 数据清单：https://blog.xrbk.cn/plugins/owo/twikoo.json
+- 采集日期：2026-09-18
+- 本地目录：`assets/xrbk/`
+- Artalk 清单：`manifests/artalk/packs/xrbk.json`
+- 内容：流沙 36 个、可爱猫 54 个、线条狗 43 个、小电视 21 个，共 154 个。
+- 处理：下载源图片，保留原始字节；将 OwO/Twikoo 清单转换为 Artalk 原生格式。
+- 上游线索：小电视素材也出现在 https://github.com/imaegoo/emotion ，该仓库未声明许可证。
+- 授权状态：**未确认**。源页面公开提供这些文件，但尚未找到明确的再分发许可证；公开使用前应向原作者或素材权利人确认。
 
 建议按下面的格式追加记录：
 
@@ -23,4 +33,3 @@
 - 本地目录：assets/<pack-id>/
 - 修改内容：格式转换、压缩、裁剪等
 ```
-

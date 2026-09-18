@@ -38,6 +38,13 @@ frontend:
 
 当前入口先保留 Artalk 官方默认表情，并预留了本仓库的博客专用表情清单。向 `manifests/artalk/packs/blog.json` 添加内容后，不必再次修改 Artalk 配置。
 
+当前收录：
+
+| 清单 | 用途 | 分组/数量 |
+|---|---|---|
+| `packs/blog.json` | 本博客自行维护的表情 | 暂无 |
+| `packs/xrbk.json` | 从新锐博客留言页整理并转换为 Artalk 格式 | 4 组 / 154 个 |
+
 ## 添加一套 Artalk 表情
 
 1. 在 `assets/<pack-id>/` 放入经过授权的 WebP、PNG、GIF 或 SVG 文件。
@@ -61,6 +68,15 @@ frontend:
 - 新增外部素材时同步更新 `ATTRIBUTIONS.md`，记录来源、作者和许可证。
 - 不同程序的清单放在 `manifests/<target>/`，不要让某个程序专用字段进入其他清单。
 
+## 更新新锐博客来源包
+
+```shell
+npm run import:xrbk
+npm test
+```
+
+导入脚本会重新读取源站清单、下载新增素材并生成 Artalk 清单。对于仓库内已经存在但源站内容发生变化的同名文件，脚本会停止并拒绝覆盖，以保护历史评论的显示结果。
+
 ## 通用清单
 
 `manifests/generic/index.json` 是本仓库自己的中立格式，用于尚未确定目标系统的表情。等某个程序确定后，可以从通用清单生成或手工维护对应的专用 JSON。
@@ -72,4 +88,3 @@ frontend:
 - `kind`：`image`、`unicode` 或 `text`。
 - `value`：完整图片 URL、Unicode 字符或文本表情。
 - `tags`：可选的搜索标签数组。
-
