@@ -24,14 +24,14 @@ ATTRIBUTIONS.md                 素材来源和授权记录
 开发/自动更新入口：
 
 ```text
-https://cdn.jsdelivr.net/gh/demius782/emoticons@main/manifests/artalk/index.json
+https://raw.githubusercontent.com/demius782/emoticons/main/manifests/artalk/index.json
 ```
 
 Artalk 配置：
 
 ```yaml
 frontend:
-  emoticons: https://cdn.jsdelivr.net/gh/demius782/emoticons@main/manifests/artalk/index.json
+  emoticons: https://raw.githubusercontent.com/demius782/emoticons/main/manifests/artalk/index.json
 ```
 
 `manifests/artalk/index.json` 是唯一需要填入 Artalk 的地址，当前仅加载 `manifests/artalk/packs/demius.json`。
@@ -61,7 +61,7 @@ frontend:
 - 删除已使用的 `key` 会让历史评论显示原始的 `:[key]` 文本；停用表情时保留旧条目和图片。
 - 图片文件发布后不要原地替换。内容变化时使用新文件名，推荐加入短哈希或版本号。
 - JSON 内使用绝对 URL。Artalk 不会以 JSON 文件所在目录为基准解析相对图片地址。
-- `@main` 适合自动更新。需要不可变版本时创建 Git tag，并把入口及内部引用一起切换到该 tag。
+- 动态 JSON 清单使用 `raw.githubusercontent.com` 的 `main` 分支，避免 jsDelivr 对已更新分支内容长时间缓存；图片等稳定静态文件仍使用 jsDelivr。需要不可变版本时创建 Git tag。
 - 新增外部素材时同步更新 `ATTRIBUTIONS.md`，记录来源、作者和许可证。
 - 不同程序的清单放在 `manifests/<target>/`，不要让某个程序专用字段进入其他清单。
 

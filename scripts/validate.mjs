@@ -7,6 +7,30 @@ const errors = []
 
 const fail = (file, message) => errors.push(`${path.relative(root, file)}: ${message}`)
 
+function getOwnRepositoryPath(url) {
+  const prefixes = [
+    'https://raw.githubusercontent.com/demius782/emoticons/main/',
+    'https://cdn.jsdelivr.net/gh/demius782/emoticons@main/',
+  ]
+  const prefix = prefixes.find((candidate) => url.startsWith(candidate))
+  if (!prefix) return null
+
+  const relativePath = decodeURIComponent(url.slice(prefix.length).split(/[?#]/, 1)[0])
+  const resolved = path.resolve(root, relativePath)
+  return resolved.startsWith(root + path.sep) ? resolved : null
+}
+
+async function validateOwnRepositoryUrl(file, url, location) {
+  const localFile = getOwnRepositoryPath(url)
+  if (!localFile) return
+
+  try {
+    await fs.access(localFile)
+  } catch {
+    fail(file, `${location} 引用了仓库中不存在的文件：${path.relative(root, localFile)}`)
+  }
+}
+
 async function readJson(file) {
   try {
     return JSON.parse(await fs.readFile(file, 'utf8'))
@@ -105,6 +129,8 @@ for (const file of artalkPackFiles) {
 
         if (typeof item.val === 'string' && !item.val.startsWith('https://')) {
           fail(file, `${itemLocation} 的图片地址必须是完整 HTTPS URL`)
+        } else if (typeof item.val === 'string') {
+          await validateOwnRepositoryUrl(file, item.val, itemLocation)
         }
       }
     }
@@ -119,6 +145,8 @@ if (!Array.isArray(artalkIndex)) {
   for (const entry of artalkIndex) {
     if (typeof entry !== 'string' || !entry.startsWith('https://')) {
       fail(artalkIndexFile, '嵌套清单必须使用完整 HTTPS URL')
+    } else {
+      await validateOwnRepositoryUrl(artalkIndexFile, entry, 'Artalk 嵌套清单')
     }
   }
 }

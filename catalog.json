@@ -7,7 +7,7 @@
       "target": "artalk",
       "status": "active",
       "manifest": "manifests/artalk/index.json",
-      "cdn": "https://cdn.jsdelivr.net/gh/demius782/emoticons@main/manifests/artalk/index.json"
+      "cdn": "https://raw.githubusercontent.com/demius782/emoticons/main/manifests/artalk/index.json"
     },
     {
       "id": "generic",
